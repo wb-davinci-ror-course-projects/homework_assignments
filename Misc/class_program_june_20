@@ -1,0 +1,5 @@
+# use variables for all the numbers and calculations, make it so it will calculate if there were a
+# different input than 10, use a formatted string to print the following:
+
+# I'm 5' 3" tall. If I were 10"'s taller, I would be 6'1" tall.
+c
