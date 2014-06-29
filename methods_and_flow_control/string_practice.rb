@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+practice_string = 'this is a string to practice with'
+practice = practice_string.slice('practice')
+
+puts practice_string
+puts practice_string.capitalize
+puts practice_string.upcase
+puts practice_string.gsub('string', "'string'")
+puts "The string '#{practice_string}'" \
+       " has #{practice_string.length} characters"
+puts practice_string.reverse
+puts '%s %s %s!' % [practice, practice, practice]
