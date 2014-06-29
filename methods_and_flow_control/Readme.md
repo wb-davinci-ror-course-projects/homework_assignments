@@ -11,6 +11,18 @@ puts '%s %s %s!' % [practice, practice, practice]
 
   fix: ignored
 ---
+improper indention
+
+  fix: lined up elsif with if
+---
+fizz_buzz.rb:8:3: C: Use self-assignment shorthand +=
+
+  fix: replaced number = number + 1 with numer += 1
+---
+improper indention
+
+  fix: indentent if statement within while loop
+---
 
 **Mistakes:**
 
