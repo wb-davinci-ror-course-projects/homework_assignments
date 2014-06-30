@@ -6,7 +6,7 @@ practice = practice_string.slice('practice')
 puts practice_string
 puts practice_string.capitalize
 puts practice_string.upcase
-puts practice_string.gsub('string', "'string'")
+puts practice_string.gsub('string', "'string'").capitalize
 puts "The string '#{practice_string}'" \
        " has #{practice_string.length} characters"
 puts practice_string.reverse
