@@ -1,5 +1,3 @@
-#!/usr/bin/env ruby
-
 # use variables for all the numbers and calculations,
 # make it so it will calculate a different input than 10,
 # use a formatted string to print the following:
