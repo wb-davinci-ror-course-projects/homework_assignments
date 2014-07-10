@@ -25,7 +25,7 @@ adjective_3 = ask_question('Give me another adjective: ')
 number = ask_question('Tell me a number: ')
 plural_noun_4 = ask_question('Give me another plural noun: ')
 
-story = <<LIB_HEREDOC
+story = <<LIBS_HEREDOC
 Here is your madlib:
 A vacation is when you take a trip to some #{adjective_1} place
 with your #{adjective_2} family. Usually you go to some place
@@ -43,6 +43,6 @@ need vacations more than kids because parents are always very
 #{adjective_3} and because they have to work #{number}
 hours every day all year making enough #{plural_noun_4} to pay
 for the vacation.
-LIB_HEREDOC
+LIBS_HEREDOC
 
 puts story
