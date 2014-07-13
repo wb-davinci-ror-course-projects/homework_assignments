@@ -2,13 +2,17 @@
 # class doc comment
 class CashRegister
   def initialize
-    if @total == nil
       @total = 0
-    end
   end
 
   def purchase(cost)
-    @total += cost
+    if cost.class != String
+      @total += cost  
+    else
+      puts "Please enter a numeric value for the cost of the item."
+      new_cost = gets.chomp.to_f
+      self.purchase(new_cost)
+    end
   end
 
   def total
