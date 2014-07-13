@@ -2,7 +2,7 @@
 
 my_array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-puts my_array.join('..') + '..'
+puts my_array.join('...') + '...'
 puts 'T-' + my_array.reverse.join(', ') + '.. BLASTOFF!'
 puts "The last element is #{my_array.last}"
 puts "The first element is #{my_array.first}"
