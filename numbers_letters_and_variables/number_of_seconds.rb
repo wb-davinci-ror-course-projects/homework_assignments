@@ -1,4 +1,4 @@
-#! usr/bin/env ruby
+#!/usr/bin/env ruby
 age = 20
 seconds_in_minute = 60
 minutes_in_hour = 60

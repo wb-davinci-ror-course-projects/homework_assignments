@@ -23,7 +23,7 @@ class CashRegister
   end
 
   def total
-      puts sprintf('%.2f', @total)
+    puts sprintf('%.2f', @total)
   end
 
   def pay(paid)
