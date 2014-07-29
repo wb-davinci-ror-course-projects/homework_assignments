@@ -20,5 +20,5 @@ puts "  #{seconds_in_minute * minutes_in_hour * hours_in_day} seconds in a day,"
 puts "  #{seconds_in_minute * minutes_in_hour * hours_in_day * days_in_week}" \
        ' seconds in a week'
 puts "That means when you turn #{age}, you've been alive for #{seconds_alive}" \
-  " seconds, \nand if you make it to 100, you will have lived #{seconds_lived} "\
+  " seconds,\nand if you make it to 100, you will have lived #{seconds_lived} "\
 'seconds. Make them count!'
